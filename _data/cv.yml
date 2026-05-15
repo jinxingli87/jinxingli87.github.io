@@ -102,15 +102,14 @@ cv:
       - bullet: College Physics
 
     Professional Services:
-      - label: Grant Reviewer
-        details: "NASA Living With a Star; NASA Heliophysics Guest Investigator Open; NASA Supporting Research."
-      - label: Journal Reviewer
-        details: "Nature Communications; Journal of Geophysical Research; Geophysical Research Letters; Waves in Random and Complex Media; Geoscience Letters; Advances in Space Research; Physics of Plasmas; Earth and Planetary Physics."
-      - label: Committees
-        details: "Primary Convener and Session Chair, American Geophysical Union (AGU) Fall Meeting; Committee Member, AGU Global Environmental Change (GEC) Award; Chair of CESASC Scholarship (2020–); Chair of Lisa Lu Scholarship (2020–)."
+      - bullet: "**Grant Reviewer** — NASA Living With a Star; NASA Heliophysics Guest Investigator Open; NASA Supporting Research."
+      - bullet: "**Journal Reviewer** — Nature Communications; Journal of Geophysical Research; Geophysical Research Letters; Waves in Random and Complex Media; Geoscience Letters; Advances in Space Research; Physics of Plasmas; Earth and Planetary Physics."
+      - bullet: "**Primary Convener and Session Chair**, American Geophysical Union (AGU) Fall Meeting."
+      - bullet: "**Committee Member**, AGU Global Environmental Change (GEC) Award."
+      - bullet: "**Chair**, CESASC Scholarship (2020–)."
+      - bullet: "**Chair**, Lisa Lu Scholarship (2020–)."
 
     Community Services:
-      - label: Vice President
-        details: "Peking University Alumni Association of Southern California (2023–2025)."
-      - label: Board Member, CESASC
-        details: "Chair of CESASC Scholarship and Lisa Lu Scholarship (2021–2026)."
+      - bullet: "**Vice President**, Peking University Alumni Association of Southern California (2023–2025)."
+      - bullet: "**Board Member**, Chinese-American Engineers and Scientists Association of Southern California (CESASC)."
+      - bullet: "**Chair**, CESASC Scholarship and Lisa Lu Scholarship (2021–2026)."
