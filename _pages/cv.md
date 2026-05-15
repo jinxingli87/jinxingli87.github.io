@@ -1,12 +1,14 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: cv
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
+nav_order: 3
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Education, research experience, grants, and professional services.
+# To enable a PDF download button on the CV page, drop a file at
+# `assets/pdf/Jinxing_Li_CV.pdf` and uncomment the line below.
+# cv_pdf: /assets/pdf/Jinxing_Li_CV.pdf
 toc:
   sidebar: left
 ---

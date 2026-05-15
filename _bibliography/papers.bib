@@ -1,115 +1,657 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{grl = {Geophys. Res. Lett.}}
+@string{jgr = {J. Geophys. Res. Space Physics}}
+@string{natcomm = {Nature Communications}}
+@string{sw = {Space Weather}}
+@string{prl = {Phys. Rev. Lett.}}
+@string{pop = {Phys. Plasmas}}
+@string{apj = {Astrophys. J.}}
+@string{angeo = {Ann. Geophys.}}
+@string{frontiers_spas = {Frontiers in Astronomy and Space Sciences}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+% =======================================================================
+% First-author / corresponding-author publications
+% =======================================================================
+
+@inproceedings{li2026layout,
+  abbr      = {CVPR-W},
+  title     = {Layout-Aware Representation Learning for Open-Set ID Fraud Discovery},
+  author    = {Li, Jinxing and Ren, N. and Pan, H. and Chang, C. and George, D.},
+  booktitle = {CVPR / AI4RWC Workshop},
+  year      = {2026},
+  doi       = {10.48550/arXiv.2605.05215},
+  url       = {https://doi.org/10.48550/arXiv.2605.05215},
+  selected  = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@article{li2025neural,
+  abbr     = {Frontiers},
+  title    = {Neural Network-Based Modeling of Magnetospheric Ion Distributions: A Comparative Study of MLP, CNN, LSTM and Transformer Networks},
+  author   = {Li, Jinxing and Bortnik, Jacob and Wang, Q. and Wen, Q. and others},
+  journal  = frontiers_spas,
+  year     = {2025},
+  doi      = {10.3389/fspas.2025.1629056},
+  url      = {https://doi.org/10.3389/fspas.2025.1629056},
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@article{wang2025mini,
+  abbr    = {GRL},
+  title   = {First observation of mini harmonic structure in magnetosonic waves},
+  author  = {Wang, Q. and Li, Jinxing and Bortnik, J. and Ma, Q. and Tian, S. and Baker, D. N. and others},
+  journal = grl,
+  volume  = {52},
+  pages   = {e2025GL114908},
+  year    = {2025},
+  doi     = {10.1029/2025GL114908},
+  url     = {https://doi.org/10.1029/2025GL114908}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@article{li2024chorus_controlling,
+  abbr    = {JGR},
+  title   = {Controlling factors of chorus spectral gaps},
+  author  = {Li, Jinxing and Bortnik, J. and Li, W. and An, X. and Lyons, L. R. and Kurth, W. S. and others},
+  journal = jgr,
+  volume  = {129},
+  pages   = {e2023JA031893},
+  year    = {2024},
+  doi     = {10.1029/2023JA031893},
+  url     = {https://doi.org/10.1029/2023JA031893}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+@article{li2024finestructure,
+  abbr    = {JGR},
+  title   = {Fine structure of magnetospheric magnetosonic waves: 1. Elementary rising-tone emissions within individual harmonic},
+  author  = {Li, Jinxing and Bortnik, J. and Tian, S. and Ma, Q. and An, X. and Ma, D. and others},
+  journal = jgr,
+  volume  = {129},
+  pages   = {e2024JA032462},
+  year    = {2024},
+  doi     = {10.1029/2024JA032462},
+  url     = {https://doi.org/10.1029/2024JA032462}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+@article{li2023ringcurrent,
+  abbr     = {Space Weather},
+  title    = {Modeling ring current proton fluxes using artificial neural network and Van Allen Probe measurements},
+  author   = {Li, Jinxing and Bortnik, J. and Chu, X. and Ma, D. and Tian, S. and Wang, C.-P. and others},
+  journal  = sw,
+  volume   = {21},
+  pages    = {e2022SW003257},
+  year     = {2023},
+  doi      = {10.1029/2022SW003257},
+  url      = {https://doi.org/10.1029/2022SW003257},
+  selected = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+@article{li2022chorusgaps,
+  abbr    = {GRL},
+  title   = {Unraveling the formation region and frequency of chorus spectral gaps},
+  author  = {Li, Jinxing and Bortnik, J. and Li, W. and An, X. and Lyons, L. R. and Kurth, W. S. and others},
+  journal = grl,
+  volume  = {49},
+  pages   = {e2022GL100385},
+  year    = {2022},
+  doi     = {10.1029/2022GL100385},
+  url     = {https://doi.org/10.1029/2022GL100385}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+@article{li2021quasiperiodic,
+  abbr    = {JGR},
+  title   = {Multipoint observations of quasiperiodic emission intensification and effects on energetic electron precipitation},
+  author  = {Li, Jinxing and Bortnik, J. and Ma, Q. and Li, W. and Shen, X. and Nishimura, Y. and others},
+  journal = jgr,
+  volume  = {126},
+  pages   = {e2020JA028484},
+  year    = {2021},
+  doi     = {10.1029/2020JA028484},
+  url     = {https://doi.org/10.1029/2020JA028484}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@article{li2021substorm,
+  abbr    = {JGR},
+  title   = {Characteristics of substorm-onset-related and nonsubstorm earthward fast flows and associated magnetic flux transport: THEMIS observations},
+  author  = {Li, Jinxing and Chu, X. and Bortnik, J. and Weygand, J. and Wang, C.-P. and Liu, J. and others},
+  journal = jgr,
+  volume  = {126},
+  pages   = {e2020JA028313},
+  year    = {2021},
+  doi     = {10.1029/2020JA028313},
+  url     = {https://doi.org/10.1029/2020JA028313}
+}
+
+@article{li2019hiss,
+  abbr    = {GRL},
+  title   = {Parallel acceleration of suprathermal electrons caused by whistler-mode hiss waves},
+  author  = {Li, Jinxing and Ma, Q. and Bortnik, J. and Li, W. and An, X. and Reeves, G. D. and others},
+  journal = grl,
+  volume  = {46},
+  pages   = {12675--12684},
+  year    = {2019},
+  doi     = {10.1029/2019GL085562},
+  url     = {https://doi.org/10.1029/2019GL085562}
+}
+
+@article{li2019twoband,
+  abbr     = {Nat. Commun.},
+  title    = {Origin of two-band chorus in the radiation belt of Earth},
+  author   = {Li, Jinxing and Bortnik, J. and An, X. and Li, W. and Angelopoulos, V. and others},
+  journal  = natcomm,
+  volume   = {10},
+  pages    = {4672},
+  year     = {2019},
+  doi      = {10.1038/s41467-019-12561-3},
+  url      = {https://doi.org/10.1038/s41467-019-12561-3},
+  selected = {true}
+}
+
+@article{li2018reconnection,
+  abbr    = {GRL},
+  title   = {Local excitation of whistler mode waves and associated Langmuir waves at dayside reconnection regions},
+  author  = {Li, Jinxing and Bortnik, J. and An, X. and Li, W. and Russell, C. T. and Zhou, M. and others},
+  journal = grl,
+  volume  = {45},
+  pages   = {8793--8802},
+  year    = {2018},
+  doi     = {10.1029/2018GL078287},
+  url     = {https://doi.org/10.1029/2018GL078287}
+}
+
+@article{li2017chorus_langmuir,
+  abbr    = {GRL},
+  title   = {Chorus wave modulation of Langmuir waves in the radiation belts},
+  author  = {Li, Jinxing and Bortnik, J. and An, X. and Li, W. and Thorne, R. M. and Zhou, M. and Spence, H. E.},
+  journal = grl,
+  volume  = {44},
+  pages   = {11713--11721},
+  year    = {2017},
+  doi     = {10.1002/2017GL075877},
+  url     = {https://doi.org/10.1002/2017GL075877}
+}
+
+@article{li2017zipper,
+  abbr    = {JGR},
+  title   = {{``Zipper-like'' periodic magnetosonic waves: Van Allen Probes, THEMIS, and Magnetospheric Multiscale observations}},
+  author  = {Li, Jinxing and Bortnik, J. and Li, W. and Ma, Q. and Thorne, R. M. and others},
+  journal = jgr,
+  volume  = {122},
+  pages   = {1600--1610},
+  year    = {2017},
+  doi     = {10.1002/2016JA023536},
+  url     = {https://doi.org/10.1002/2016JA023536}
+}
+
+@article{li2017coherent,
+  abbr    = {JGR},
+  title   = {Coherently modulated whistler mode waves simultaneously observed over unexpectedly large spatial scales},
+  author  = {Li, Jinxing and Bortnik, J. and Li, W. and Thorne, R. M. and Ma, Q. and others},
+  journal = jgr,
+  volume  = {122},
+  pages   = {1871--1882},
+  year    = {2017},
+  doi     = {10.1002/2016JA023706},
+  url     = {https://doi.org/10.1002/2016JA023706}
+}
+
+@article{li2016butterfly_landau,
+  abbr    = {GRL},
+  title   = {Formation of energetic electron butterfly distributions by magnetosonic waves via Landau resonance},
+  author  = {Li, Jinxing and Ni, B. and Ma, Q. and Xie, L. and Pu, Z. and Fu, S. and Thorne, R. M. and Bortnik, J. and Chen, L. and Li, W. and others},
+  journal = grl,
+  volume  = {43},
+  pages   = {3009--3016},
+  year    = {2016},
+  doi     = {10.1002/2016GL067853},
+  url     = {https://doi.org/10.1002/2016GL067853}
+}
+
+@article{li2016butterfly_ultra,
+  abbr    = {JGR},
+  title   = {Ultrarelativistic electron butterfly distributions created by parallel acceleration due to magnetosonic waves},
+  author  = {Li, Jinxing and Bortnik, J. and Li, W. and Thorne, R. M. and Ma, Q. and others},
+  journal = jgr,
+  volume  = {121},
+  pages   = {3212--3222},
+  year    = {2016},
+  doi     = {10.1002/2016JA022370},
+  url     = {https://doi.org/10.1002/2016JA022370}
+}
+
+@article{li2015resonant,
+  abbr    = {Phys. Plasmas},
+  title   = {Comparison of formulas for resonant interactions between energetic electrons and oblique whistler-mode waves},
+  author  = {Li, Jinxing and Bortnik, J. and Xie, L. and Pu, Z. and Chen, L. and others},
+  journal = pop,
+  volume  = {22},
+  pages   = {052902},
+  year    = {2015},
+  doi     = {10.1063/1.4914852},
+  url     = {https://doi.org/10.1063/1.4914852}
+}
+
+@inproceedings{li2014ursi,
+  abbr      = {URSI GASS},
+  title     = {Phase trapping and phase bunching: Nonlinear acceleration and deceleration of radiation belt electrons},
+  author    = {Li, Jinxing and Bortnik, J. and Pu, Z. and Chen, L. and Ni, B. and Xie, L.},
+  booktitle = {2014 XXXIst URSI General Assembly and Scientific Symposium (URSI GASS)},
+  year      = {2014},
+  doi       = {10.1109/URSIGASS.2014.6929873},
+  url       = {https://doi.org/10.1109/URSIGASS.2014.6929873}
+}
+
+@article{li2014msw_radbelt,
+  abbr    = {GRL},
+  title   = {Interactions between magnetosonic waves and radiation belt electrons: Comparisons of quasi-linear calculations with test particle simulations},
+  author  = {Li, Jinxing and Ni, B. and Xie, L. and Pu, Z. and Bortnik, J. and Thorne, R. M. and others},
+  journal = grl,
+  volume  = {41},
+  pages   = {4828--4834},
+  year    = {2014},
+  doi     = {10.1002/2014GL060461},
+  url     = {https://doi.org/10.1002/2014GL060461}
+}
+
+@article{li2011symplectic,
+  abbr    = {Phys. Plasmas},
+  title   = {Variational symplectic algorithm for guiding center dynamics in the inner magnetosphere},
+  author  = {Li, Jinxing and Qin, H. and Pu, Z. and Xie, L. and Fu, S.},
+  journal = pop,
+  volume  = {18},
+  pages   = {052902},
+  year    = {2011},
+  doi     = {10.1063/1.3589275},
+  url     = {https://doi.org/10.1063/1.3589275}
+}
+
+@article{li2011ultracold,
+  abbr    = {Chin. Phys. Lett.},
+  title   = {Calculation of Ion Equilibrium Temperature in Ultracold Neutral Plasmas},
+  author  = {Li, Jinxing and Cao, M. and Han, L. and Qi, Y. and Zhang, S. and Gao, H. and Li, F. and Killian, T. C.},
+  journal = {Chinese Physics Letters},
+  volume  = {28},
+  pages   = {123201},
+  year    = {2011},
+  doi     = {10.1088/0256-307X/28/12/123201},
+  url     = {https://doi.org/10.1088/0256-307X/28/12/123201}
+}
+
+@phdthesis{li2015phdthesis,
+  abbr   = {Thesis},
+  title  = {The Impact of Magnetosonic Waves on Earth's Radiation Belt Electrons: Observations and Simulations},
+  author = {Li, Jinxing},
+  school = {Peking University},
+  year   = {2015},
+  url    = {https://sites.google.com/site/jinxingli87/publications/phdthesis}
+}
+
+% =======================================================================
+% Co-authored publications
+% =======================================================================
+
+@article{tian2025microinjection,
+  abbr    = {JGR},
+  title   = {The phase relation among microinjection, thermal plasma, and electric field: A case study},
+  author  = {Tian, S. and Li, Jinxing and Bortnik, J. and Wang, C.-P. and Wang, S. and Burch, J. L. and {Le Contel}, O.},
+  journal = jgr,
+  volume  = {130},
+  pages   = {e2025JA034681},
+  year    = {2025},
+  doi     = {10.1029/2025JA034681},
+  url     = {https://doi.org/10.1029/2025JA034681}
+}
+
+@article{tian2025kineticalfven,
+  abbr    = {JGR},
+  title   = {Kinetic Alfven waves driving auroral O+ ion outflows to form plasma cloak during the 17 March 2015 geomagnetic storm},
+  author  = {Tian, S. and Li, Jinxing and Wang, C.-P. and Ma, Q. and Bortnik, J. and Ferradas, C. P. and others},
+  journal = jgr,
+  volume  = {130},
+  pages   = {e2024JA033169},
+  year    = {2025},
+  doi     = {10.1029/2024JA033169},
+  url     = {https://doi.org/10.1029/2024JA033169}
+}
+
+@article{wang2024oxygen,
+  abbr    = {Space Weather},
+  title   = {Modeling the dynamic global distribution of the ring current oxygen ions using artificial neural network technique},
+  author  = {Wang, Q. and Yue, C. and Li, Jinxing and Bortnik, J. and Ma, D. and Jun, C.-W.},
+  journal = sw,
+  volume  = {22},
+  pages   = {e2023SW003779},
+  year    = {2024},
+  doi     = {10.1029/2023SW003779},
+  url     = {https://doi.org/10.1029/2023SW003779}
+}
+
+@article{wang2023ringcurrentdecay,
+  abbr    = {arXiv},
+  title   = {Ring Current Decay Timescales Derived from Van Allen Probe Observations},
+  author  = {Wang, S. and Li, Jinxing},
+  journal = {arXiv preprint},
+  year    = {2023},
+  doi     = {10.48550/arXiv.2307.08907},
+  url     = {https://doi.org/10.48550/arXiv.2307.08907}
+}
+
+@article{cao2023ionospheric,
+  abbr    = {Space Weather},
+  title   = {The response of ionospheric currents to external drivers investigated using a neural network-based model},
+  author  = {Cao, X. and Chu, X. and Bortnik, J. and Weygand, J. M. and Li, Jinxing and Aryan, H. and Ma, D.},
+  journal = sw,
+  volume  = {21},
+  pages   = {e2023SW003506},
+  year    = {2023},
+  doi     = {10.1029/2023SW003506},
+  url     = {https://doi.org/10.1029/2023SW003506}
+}
+
+@article{he2023sawtooth,
+  abbr    = {EPP},
+  title   = {Sawtooth and dune auroras simultaneously driven by waves around the plasmapause},
+  author  = {He, F. and Yao, Z. H. and Ni, B. B. and Cao, X. and Ye, S. Y. and Guo, R. L. and Li, J. X. and Ren, Z. P. and Yue, X. A. and Zhang, Y. L. and Wei, Y. and Zhang, X. X. and Pu, Z. Y.},
+  journal = {Earth and Planetary Physics},
+  volume  = {7},
+  number  = {2},
+  pages   = {237--246},
+  year    = {2023},
+  doi     = {10.26464/epp2023023},
+  url     = {https://doi.org/10.26464/epp2023023}
+}
+
+@article{chu2022pressure,
+  abbr    = {ESSOAr},
+  title   = {Persistent pressure gradient as a driver of the substorm current wedge: A statistical study},
+  author  = {Chu, X. and McPherron, R. L. and Bortnik, J. and Angelopoulos, V. and Hsu, T. and Weygand, J. M. and Li, Jinxing and Cao, X. and Aryan, H.},
+  journal = {Earth and Space Science Open Archive},
+  year    = {2022},
+  doi     = {10.1002/essoar.10512305.1},
+  url     = {https://doi.org/10.1002/essoar.10512305.1}
+}
+
+@article{aryan2022fastflows,
+  abbr    = {Ann. Geophys.},
+  title   = {Multiple conjugate observations of magnetospheric fast flow bursts using THEMIS observations},
+  author  = {Aryan, H. and Bortnik, J. and Li, Jinxing and Weygand, J. M. and Chu, X. and Angelopoulos, V.},
+  journal = angeo,
+  volume  = {40},
+  pages   = {531--544},
+  year    = {2022},
+  doi     = {10.5194/angeo-40-531-2022},
+  url     = {https://doi.org/10.5194/angeo-40-531-2022}
+}
+
+@article{yao2021whistler_sw,
+  abbr    = {ApJ},
+  title   = {Low-frequency Whistler Waves Modulate Electrons and Generate Higher-frequency Whistler Waves in the Solar Wind},
+  author  = {Yao, S. T. and Shi, Q. Q. and Zong, Q. G. and Degeling, A. W. and Guo, R. L. and Li, L. and Li, J. X. and others},
+  journal = apj,
+  volume  = {923},
+  pages   = {216},
+  year    = {2021},
+  doi     = {10.3847/1538-4357/ac2e97},
+  url     = {https://doi.org/10.3847/1538-4357/ac2e97}
+}
+
+@article{kim2021rapid,
+  abbr    = {GRL},
+  title   = {Rapid injections of MeV electrons and extremely fast step-like outer radiation belt enhancements},
+  author  = {Kim, H.-J. and Lee, D.-Y. and Wolf, R. and Bortnik, J. and Kim, K.-C. and Lyons, L. and others},
+  journal = grl,
+  volume  = {48},
+  pages   = {e2021GL093151},
+  year    = {2021},
+  doi     = {10.1029/2021GL093151},
+  url     = {https://doi.org/10.1029/2021GL093151}
+}
+
+@article{huang2020harmonics,
+  abbr    = {JGR},
+  title   = {First Observations of Magnetosonic Waves with Nonlinear Harmonics},
+  author  = {Huang, S. Y. and Deng, D. and Yuan, Z. G. and Jiang, K. and Li, J. X. and Deng, X. H. and others},
+  journal = jgr,
+  volume  = {125},
+  pages   = {e2019JA027724},
+  year    = {2020},
+  doi     = {10.1029/2019JA027724},
+  url     = {https://doi.org/10.1029/2019JA027724}
+}
+
+@article{zhao2020whistler,
+  abbr    = {JGR},
+  title   = {Modulation of Whistler Mode Waves by Ion Scale Waves Observed in the Distant Magnetotail},
+  author  = {Zhao, D. and Fu, S. and Parks, G. K. and Chen, L. and Liu, X. and Tong, Y. and Li, Jinxing and Pu, Z. and Zong, A. and Sun, W. and Li, S. and An, J.},
+  journal = jgr,
+  volume  = {125},
+  pages   = {e2019JA027278},
+  year    = {2020},
+  doi     = {10.1029/2019JA027278},
+  url     = {https://doi.org/10.1029/2019JA027278}
+}
+
+@article{an2019unified,
+  abbr    = {PRL},
+  title   = {Unified view of nonlinear wave structures associated with whistler-mode chorus},
+  author  = {An, X. and Li, Jinxing and Bortnik, J. and Decyk, V. and Kletzing, C. and Hospodarsky, G.},
+  journal = prl,
+  volume  = {122},
+  pages   = {045101},
+  year    = {2019},
+  doi     = {10.1103/PhysRevLett.122.045101},
+  url     = {https://doi.org/10.1103/PhysRevLett.122.045101}
+}
+
+@article{yao2019magdips,
+  abbr    = {GRL},
+  title   = {Waves in kinetic-scale magnetic dips: MMS observations in the magnetosheath},
+  author  = {Yao, S. T. and Shi, Q. Q. and Yao, Z. H. and Li, J. X. and Yue, C. and Tao, X. and others},
+  journal = grl,
+  volume  = {46},
+  pages   = {523--533},
+  year    = {2019},
+  doi     = {10.1029/2018GL080696},
+  url     = {https://doi.org/10.1029/2018GL080696}
+}
+
+@article{zhou2018mms,
+  abbr    = {JGR},
+  title   = {Magnetospheric Multiscale observations of an ion diffusion region with large guide field at the magnetopause: Current system, electron heating, and plasma waves},
+  author  = {Zhou, M. and Berchem, J. and Walker, R. J. and El-Alaoui, M. and Goldstein, M. L. and Lapenta, G. and Li, Jinxing and others},
+  journal = jgr,
+  volume  = {123},
+  year    = {2018},
+  doi     = {10.1002/2017JA024517},
+  url     = {https://doi.org/10.1002/2017JA024517}
+}
+
+@article{lei2017msw_scattering,
+  abbr    = {JGR},
+  title   = {The Radiation Belt Electron Scattering by Magnetosonic Wave: Dependence on Key Parameters},
+  author  = {Lei, M. and Xie, L. and Li, Jinxing and Pu, Z. and Fu, S. and Ni, B. and Hua, M. and Chen, L. and Li, W.},
+  journal = jgr,
+  volume  = {122},
+  year    = {2017},
+  doi     = {10.1002/2016JA023801},
+  url     = {https://doi.org/10.1002/2016JA023801}
+}
+
+@article{yue2017whistler_shocks,
+  abbr    = {JGR},
+  title   = {The characteristic response of whistler mode waves to interplanetary shocks},
+  author  = {Yue, C. and Chen, L. and Bortnik, J. and Ma, Q. and Thorne, R. M. and Angelopoulos, V. and Li, Jinxing and An, X. and Zhou, C. and Kletzing, C. and Reeves, G. D. and Spence, H. E.},
+  journal = jgr,
+  volume  = {122},
+  year    = {2017},
+  doi     = {10.1002/2017JA024574},
+  url     = {https://doi.org/10.1002/2017JA024574}
+}
+
+@article{han2017diffuseauroras,
+  abbr    = {GRL},
+  title   = {Coordinated observations of two types of diffuse auroras near magnetic local noon by Magnetospheric Multiscale Mission and ground all-sky camera},
+  author  = {Han, D.-S. and Li, J.-X. and Nishimura, Y. and Lyons, L. R. and Bortnik, J. and Zhou, M. and Liu, J.-J. and Hu, Z.-J. and Hu, H.-Q. and Yang, H.-G. and Fuselier, S. A. and {Le Contel}, O. and Ergun, R. E. and Malaspina, D. and Lindqvist, P.-A. and Pollock, C. J.},
+  journal = grl,
+  volume  = {44},
+  year    = {2017},
+  doi     = {10.1002/2017GL074447},
+  url     = {https://doi.org/10.1002/2017GL074447}
+}
+
+@article{liu2016dipolarizing,
+  abbr    = {JGR},
+  title   = {Dipolarizing flux bundles in the cisgeosynchronous magnetosphere: Relationship between electric fields and energetic particle injections},
+  author  = {Liu, J. and Angelopoulos, V. and Zhang, X.-J. and Turner, D. L. and Gabrielse, C. and Runov, A. and Li, Jinxing and Funsten, H. O. and Spence, H. E.},
+  journal = jgr,
+  volume  = {121},
+  pages   = {1362--1376},
+  year    = {2016},
+  doi     = {10.1002/2017GL074447},
+  url     = {https://doi.org/10.1002/2017GL074447}
+}
+
+@article{fu2016msw_protons,
+  abbr    = {JGR},
+  title   = {Interactions between magnetosonic waves and ring current protons: Gyroaveraged test particle simulations},
+  author  = {Fu, S. and Ni, B. and Li, Jinxing and Zhou, C. and Gu, X. and Huang, S. and Zhang, H. and Ge, Y. and Cao, X.},
+  journal = jgr,
+  volume  = {121},
+  pages   = {8537--8553},
+  year    = {2016},
+  doi     = {10.1002/2016JA023117},
+  url     = {https://doi.org/10.1002/2016JA023117}
+}
+
+@article{zhang2016dropout,
+  abbr    = {JGR},
+  title   = {Physical mechanism causing rapid changes in ultrarelativistic electron pitch angle distributions right after a shock arrival: Evaluation of an electron dropout event},
+  author  = {Zhang, X.-J. and Li, W. and Thorne, R. M. and Angelopoulos, V. and Ma, Q. and Li, Jinxing and Bortnik, J. and Nishimura, Y. and Chen, L. and Baker, D. N. and Reeves, G. D. and Spence, H. E. and Kletzing, C. A. and Kurth, W. S. and Hospodarsky, G. B. and Blake, J. B. and Fennell, J. F.},
+  journal = jgr,
+  volume  = {121},
+  pages   = {8300--8316},
+  year    = {2016},
+  doi     = {10.1002/2016JA022517},
+  url     = {https://doi.org/10.1002/2016JA022517}
+}
+
+@article{li2016acceleration,
+  abbr    = {JGR},
+  title   = {Radiation belt electron acceleration during the 17 March 2015 geomagnetic storm: Observations and simulations},
+  author  = {Li, W. and Ma, Q. and Thorne, R. M. and Bortnik, J. and Zhang, X.-J. and Li, Jinxing and Baker, D. N. and Reeves, G. D. and Spence, H. E. and Kletzing, C. A. and Kurth, W. S. and Hospodarsky, G. B. and Blake, J. B. and Fennell, J. F. and Kanekal, S. G. and Angelopoulos, V. and Green, J. C. and Goldstein, J.},
+  journal = jgr,
+  volume  = {121},
+  pages   = {5520--5536},
+  year    = {2016},
+  doi     = {10.1002/2016JA022400},
+  url     = {https://doi.org/10.1002/2016JA022400}
+}
+
+@article{xiong2015chin,
+  abbr    = {Chin. Sci. Bull.},
+  title   = {Variation characteristics of relativistic electron fluxes in the outer radiation belt with different energies during geomagnetic storms (in Chinese)},
+  author  = {Xiong, Ying and Xie, Lun and Li, Jinxing and Zhang, Hui and Fu, Suiyan and Pu, Zuyin},
+  journal = {Chinese Science Bulletin},
+  volume  = {60},
+  pages   = {1--8},
+  year    = {2015},
+  doi     = {10.1360/N972014-00761},
+  url     = {https://doi.org/10.1360/N972014-00761}
+}
+
+@article{xiong2015relativistic,
+  abbr    = {JGR},
+  title   = {Responses of relativistic electron fluxes in the outer radiation belt to geomagnetic storms},
+  author  = {Xiong, Y. and Xie, L. and Pu, Z. and Fu, S. and Chen, L. and Ni, B. and Li, W. and Li, Jinxing and Guo, R. and Parks, G. K.},
+  journal = jgr,
+  volume  = {120},
+  pages   = {9513--9523},
+  year    = {2015},
+  doi     = {10.1002/2015JA021440},
+  url     = {https://doi.org/10.1002/2015JA021440}
+}
+
+@article{chen2015bounce,
+  abbr    = {JGR},
+  title   = {Nonlinear bounce resonances between magnetosonic waves and equatorially mirroring electrons},
+  author  = {Chen, L. and Maldonado, A. and Bortnik, J. and Thorne, R. M. and Li, Jinxing and Dai, L. and Zhan, X.},
+  journal = jgr,
+  volume  = {120},
+  pages   = {6514--6527},
+  year    = {2015},
+  doi     = {10.1002/2015JA021174},
+  url     = {https://doi.org/10.1002/2015JA021174}
+}
+
+@article{bortnik2015analytical,
+  abbr    = {GRL},
+  title   = {Analytical approximation of transit time scattering due to magnetosonic waves},
+  author  = {Bortnik, J. and Thorne, R. M. and Ni, B. and Li, Jinxing},
+  journal = grl,
+  volume  = {42},
+  pages   = {1318--1325},
+  year    = {2015},
+  doi     = {10.1002/2014GL062710},
+  url     = {https://doi.org/10.1002/2014GL062710}
+}
+
+@article{chang2014elf,
+  abbr    = {Acta Phys. Sin.},
+  title   = {Test particle simulation of resonant interaction between energetic electrons in the magnetosphere and ELF/VLF waves generated by ionospheric modification (in Chinese)},
+  author  = {Chang, Shanshan and Ni, Binbin and Zhao, Zhengyu and Wang, Feng and Li, Jinxing and Zhao, Jinjin and Gu, Xudong and Zhou, Chen},
+  journal = {Acta Physica Sinica},
+  volume  = {63},
+  number  = {6},
+  pages   = {069401},
+  year    = {2014},
+  doi     = {10.7498/aps.63.069401},
+  url     = {https://doi.org/10.7498/aps.63.069401}
+}
+
+@article{guo2013reconnection,
+  abbr    = {JGR},
+  title   = {Separator reconnection with antiparallel/component features observed in magnetotail plasmas},
+  author  = {Guo, Ruilong and Pu, Zuyin and Xiao, Chijie and Wang, Xiaogang and Fu, Suiyan and Xie, Lun and Zong, Qiugang and He, Jiansen and Yao, Zhonghua and Zhong, Jun and Li, Jinxing},
+  journal = jgr,
+  volume  = {118},
+  pages   = {6116--6126},
+  year    = {2013},
+  doi     = {10.1002/jgra.50569},
+  url     = {https://doi.org/10.1002/jgra.50569}
+}
+
+@article{zhong2013changeE,
+  abbr    = {Planet. Space Sci.},
+  title   = {Chang'E-1 observations of pickup ions near the Moon under different interplanetary magnetic field conditions},
+  author  = {Zhong, J. and Xie, L. and Zhang, H. and Li, J. X. and Pu, Z. Y. and Nowada, M. and Wang, X. D. and Wang, X. Y. and Parks, G. K. and Zong, Q. G. and Fu, S. Y. and Guo, R. L. and Yao, Z. H. and Zhang, X. G. and Reme, H. and Wang, S. J.},
+  journal = {Planetary and Space Science},
+  volume  = {79--80},
+  pages   = {56--63},
+  year    = {2013},
+  doi     = {10.1016/j.pss.2013.02.001},
+  url     = {https://doi.org/10.1016/j.pss.2013.02.001}
+}
+
+@article{chang2013whistler,
+  abbr    = {Ann. Geophys.},
+  title   = {Resonant scattering of energetic electrons in the plasmasphere by monotonic whistler-mode waves artificially generated by ionospheric modification},
+  author  = {Chang, Shanshan and Ni, Binbin and Bortnik, Jacob and Zhou, Chen and Zhao, Zhenyu and Li, Jinxing and Gu, Xudong},
+  journal = angeo,
+  volume  = {32},
+  pages   = {507--518},
+  year    = {2014},
+  doi     = {10.5194/angeo-32-507-2014},
+  url     = {https://doi.org/10.5194/angeo-32-507-2014}
+}
+
+@article{yao2012substorm,
+  abbr    = {GRL},
+  title   = {Mechanism of substorm current wedge formation: THEMIS observations},
+  author  = {Yao, Z. H. and Pu, Z. Y. and Fu, S. Y. and Angelopoulos, V. and Kubyshkina, M. and Xing, X. and Lyons, L. and Nishimura, Y. and Xie, L. and Wang, X. G. and Xiao, C. J. and Cao, X. and Liu, J. and Zhang, H. and Nowada, M. and Zong, Q. G. and Guo, R. L. and Zhong, J. and Li, J. X.},
+  journal = grl,
+  volume  = {39},
+  pages   = {L13102},
+  year    = {2012},
+  doi     = {10.1029/2012GL052055},
+  url     = {https://doi.org/10.1029/2012GL052055}
 }

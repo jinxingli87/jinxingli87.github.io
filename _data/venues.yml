@@ -1,9 +1,49 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Optional venue metadata for the publication badges (left-side abbr labels).
+# Keyed by the `abbr` value used in `_bibliography/papers.bib`.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"GRL":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/19448007
+  color: "#1e6091"
 
-"Vision":
-  color: "#009f36"
+"JGR":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/21699402
+  color: "#1e88e5"
+
+"Space Weather":
+  url: https://agupubs.onlinelibrary.wiley.com/journal/15427390
+  color: "#f57c00"
+
+"Nat. Commun.":
+  url: https://www.nature.com/ncomms/
+  color: "#005fa3"
+
+"PRL":
+  url: https://journals.aps.org/prl/
+  color: "#a82c0e"
+
+"Phys. Plasmas":
+  url: https://pubs.aip.org/aip/pop
+  color: "#3f51b5"
+
+"ApJ":
+  url: https://iopscience.iop.org/journal/0004-637X
+  color: "#283593"
+
+"Ann. Geophys.":
+  url: https://www.ann-geophys.net/
+  color: "#2e7d32"
+
+"Frontiers":
+  url: https://www.frontiersin.org/journals/astronomy-and-space-sciences
+  color: "#00838f"
+
+"CVPR-W":
+  url: https://cvpr.thecvf.com/
+  color: "#5d4037"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b71c1c"
+
+"Thesis":
+  color: "#37474f"

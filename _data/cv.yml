@@ -1,189 +1,151 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jinxing Li
+  label: Research Scientist · Machine Learning & Space Physics
+  email: jinxingli87@gmail.com
+  location: Los Angeles, CA, USA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Research Scientist at Persona Identities, formerly a researcher at UCLA.
+    I build machine-learning systems for identity fraud detection, and have a
+    decade of experience leading NASA- and NSF-funded research on Earth's
+    radiation belts and magnetosphere using spacecraft data and large-scale
+    data-driven models.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jinxing-li-space
+    - network: GitHub
+      username: jinxingli87
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Peking University
+        location: Beijing, China
+        url: https://www.pku.edu.cn/
+        area: Space Physics
+        studyType: Ph.D.
+        start_date: 2009
+        end_date: 2015
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Supervisors: Prof. Zuyin Pu and Prof. Suiyan Fu"
+          - "Thesis: *The Impact of Magnetosonic Waves on Earth's Radiation Belt Electrons: Observations and Simulations* ([link](https://sites.google.com/site/jinxingli87/publications/phdthesis))"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of California, Los Angeles
+        location: Los Angeles, CA, USA
+        url: https://www.atmos.ucla.edu/
+        area: Atmospheric & Oceanic Sciences
+        studyType: Visiting Ph.D. Student
+        start_date: 2012
+        end_date: 2013
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Supervisor: Prof. Richard Thorne"
+
+      - institution: Xi'an Jiaotong University
+        location: Xi'an, China
+        url: https://www.xjtu.edu.cn/
+        area: Applied Physics
+        studyType: B.S.
+        start_date: 2005
+        end_date: 2009
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Persona Identities
+        position: Research Scientist
+        location: Los Angeles, CA, USA
+        url: https://withpersona.com
+        start_date: 2025
+        end_date: ""
+        summary: Machine-learning research for identity fraud detection — including layout-aware representation learning for open-set ID document fraud discovery.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: University of California, Los Angeles
+        position: Researcher
+        location: Los Angeles, CA, USA
+        url: https://www.atmos.ucla.edu/
+        start_date: 2020
+        end_date: 2025
+        summary: Led NASA- and NSF-funded research on radiation-belt physics, magnetospheric waves, and neural-network modeling of the near-Earth space environment.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: University of California, Los Angeles
+        position: Postdoctoral Researcher
+        location: Los Angeles, CA, USA
+        url: https://www.atmos.ucla.edu/
+        start_date: 2015
+        end_date: 2019
+        summary: Postdoctoral research with Prof. Jacob Bortnik on plasma waves and wave–particle interactions in the inner magnetosphere.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    Grants:
+      - title: NASA Heliophysics Guest Investigator Open
+        date: 2021
+        awarder: NASA
+        summary: >-
+          *Principal Investigator* — "Characteristics and source of microinjections in the
+          outer magnetosphere" ($527k).
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - title: NASA Heliophysics Living With a Star
+        date: 2020
+        awarder: NASA
+        summary: >-
+          *Principal Investigator* — "Ring current dynamics and associated wave activity
+          in response to solar wind drivers using machine learning" ($796k).
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - title: NSF Atmospheric and Geospace Sciences
+        date: 2019
+        awarder: National Science Foundation
+        summary: >-
+          *Principal Investigator* — "The Generation of Banded Chorus Waves in the Earth's
+          radiation belt" ($352k).
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Teaching:
+      - bullet: Machine Learning for Science
+      - bullet: Data Analysis with Python
+      - bullet: Introduction to Space Physics
+      - bullet: College Physics
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Professional Services:
+      - label: Grant Reviewer
+        details: "NASA Living With a Star; NASA Heliophysics Guest Investigator Open; NASA Supporting Research."
+      - label: Journal Reviewer
+        details: "Nature Communications; Journal of Geophysical Research; Geophysical Research Letters; Waves in Random and Complex Media; Geoscience Letters; Advances in Space Research; Physics of Plasmas; Earth and Planetary Physics."
+      - label: Committees
+        details: "Primary Convener and Session Chair, American Geophysical Union (AGU) Fall Meeting; Committee Member, AGU Global Environmental Change (GEC) Award; Chair of CESASC Scholarship (2020–); Chair of Lisa Lu Scholarship (2020–)."
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Community Services:
+      - label: Vice President
+        details: "Peking University Alumni Association of Southern California (2023–2025)."
+      - label: Board Member, CESASC
+        details: "Chair of CESASC Scholarship and Lisa Lu Scholarship (2021–2026)."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords:
+          - Deep Learning
+          - Transformers
+          - CNN / LSTM / MLP
+          - Representation Learning
+          - Open-Set Recognition
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords:
+          - Python
+          - PyTorch
+          - TensorFlow
+          - NumPy / SciPy
+          - SQL
+          - Git
+
+      - name: Space Physics
+        icon: fa-solid fa-satellite
+        keywords:
+          - Radiation Belts
+          - Plasma Waves
+          - Wave–Particle Interaction
+          - Magnetosphere
+          - Spacecraft Data Analysis
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: "Fluent (professional working proficiency)"
+      - name: Mandarin Chinese
+        summary: "Native speaker"
