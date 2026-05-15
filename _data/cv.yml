@@ -63,23 +63,20 @@ cv:
         summary: Led NASA- and NSF-funded research on radiation-belt physics, magnetospheric waves, and neural-network modeling of the near-Earth space environment.
 
     Grants:
-      - title: NASA Heliophysics Guest Investigator Open
+      - title: NASA - Heliophysics Guest Investigator Open
         date: 2021
-        awarder: NASA
         summary: >-
           *Principal Investigator* — "Characteristics and source of microinjections in the
           outer magnetosphere" ($527k).
 
-      - title: NASA Heliophysics Living With a Star
+      - title: NASA - Heliophysics Living With a Star
         date: 2020
-        awarder: NASA
         summary: >-
           *Principal Investigator* — "Ring current dynamics and associated wave activity
           in response to solar wind drivers using machine learning" ($796k).
 
-      - title: NSF Atmospheric and Geospace Sciences
+      - title: NSF - Atmospheric and Geospace Sciences
         date: 2019
-        awarder: National Science Foundation
         summary: >-
           *Principal Investigator* — "The Generation of Banded Chorus Waves in the Earth's
           radiation belt" ($352k).
