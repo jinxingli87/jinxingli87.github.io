@@ -19,10 +19,9 @@ cv:
 
   sections:
     Education:
-      - institution: Peking University
+      - institution: Peking University, Space Physics
         location: Beijing, China
         url: https://www.pku.edu.cn/
-        area: Space Physics
         studyType: Ph.D.
         start_date: 2009
         end_date: 2015
@@ -30,20 +29,18 @@ cv:
           - "Supervisors: Prof. Zuyin Pu and Prof. Suiyan Fu"
           - "Thesis: *The Impact of Magnetosonic Waves on Earth's Radiation Belt Electrons: Observations and Simulations* ([PDF](/assets/pdf/JinxingLi_phd_thesis_PKU.pdf))"
 
-      - institution: University of California, Los Angeles
+      - institution: University of California, Los Angeles, Space Physics
         location: Los Angeles, CA, USA
         url: https://www.atmos.ucla.edu/
-        area: Atmospheric & Oceanic Sciences
         studyType: Visiting Ph.D. Student
         start_date: 2012
         end_date: 2013
         highlights:
           - "Supervisor: Prof. Richard Thorne"
 
-      - institution: Xi'an Jiaotong University
+      - institution: Xi'an Jiaotong University, Applied Physics
         location: Xi'an, China
         url: https://www.xjtu.edu.cn/
-        area: Applied Physics
         studyType: B.S.
         start_date: 2005
         end_date: 2009
@@ -55,23 +52,15 @@ cv:
         url: https://withpersona.com
         start_date: 2025
         end_date: ""
-        summary: Machine-learning research for identity fraud detection — including layout-aware representation learning for open-set ID document fraud discovery.
+        summary: Machine-learning research for identity fraud detection.
 
       - company: University of California, Los Angeles
         position: Researcher
         location: Los Angeles, CA, USA
         url: https://www.atmos.ucla.edu/
-        start_date: 2020
+        start_date: 2019
         end_date: 2025
         summary: Led NASA- and NSF-funded research on radiation-belt physics, magnetospheric waves, and neural-network modeling of the near-Earth space environment.
-
-      - company: University of California, Los Angeles
-        position: Postdoctoral Researcher
-        location: Los Angeles, CA, USA
-        url: https://www.atmos.ucla.edu/
-        start_date: 2015
-        end_date: 2019
-        summary: Postdoctoral research with Prof. Jacob Bortnik on plasma waves and wave–particle interactions in the inner magnetosphere.
 
     Grants:
       - title: NASA Heliophysics Guest Investigator Open
@@ -96,18 +85,13 @@ cv:
           radiation belt" ($352k).
 
     Teaching:
-      - bullet: Machine Learning for Science
-      - bullet: Data Analysis with Python
-      - bullet: Introduction to Space Physics
-      - bullet: College Physics
+      - bullet: Machine Learning for Science, Data Analysis with Python, Introduction to Space Physics, College Physics
 
     Professional Services:
       - bullet: "**Grant Reviewer** — NASA Living With a Star; NASA Heliophysics Guest Investigator Open; NASA Supporting Research."
       - bullet: "**Journal Reviewer** — Nature Communications; Journal of Geophysical Research; Geophysical Research Letters; Waves in Random and Complex Media; Geoscience Letters; Advances in Space Research; Physics of Plasmas; Earth and Planetary Physics."
       - bullet: "**Primary Convener and Session Chair**, American Geophysical Union (AGU) Fall Meeting."
       - bullet: "**Committee Member**, AGU Global Environmental Change (GEC) Award."
-      - bullet: "**Chair**, CESASC Scholarship (2020–)."
-      - bullet: "**Chair**, Lisa Lu Scholarship (2020–)."
 
     Community Services:
       - bullet: "**Vice President**, Peking University Alumni Association of Southern California (2023–2025)."
