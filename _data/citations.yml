@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-01'
 papers:
   hxd_4oEAAAAJ:-FonjvnnhkoC:
     citations: 5
@@ -42,7 +42,7 @@ papers:
     title: Formation of energetic electron butterfly distributions by magnetosonic waves via Landau resonance
     year: '2016'
   hxd_4oEAAAAJ:Dip1O2bNi0gC:
-    citations: 3
+    citations: 4
     title: Kinetic Alfven waves driving auroral O+ ion outflows to form Plasma cloak during the 17 March 2015 geomagnetic storm
     year: '2025'
   hxd_4oEAAAAJ:EYYDruWGBe4C:
@@ -62,7 +62,7 @@ papers:
     title: Comparison of formulas for resonant interactions between energetic electrons and oblique whistler-mode waves
     year: '2015'
   hxd_4oEAAAAJ:KUbvn5osdkgC:
-    citations: 99
+    citations: 100
     title: Origin of two-band chorus in the radiation belt of Earth
     year: '2019'
   hxd_4oEAAAAJ:LjlpjdlvIbIC:
@@ -94,7 +94,7 @@ papers:
     title: Separator reconnection with antiparallel/component features observed in magnetotail plasmas
     year: '2013'
   hxd_4oEAAAAJ:SpbeaW3--B0C:
-    citations: 0
+    citations: 1
     title: Controlling factors of chorus spectral gaps
     year: '2024'
   hxd_4oEAAAAJ:TIZ-Mc8IlK0C:
@@ -114,7 +114,7 @@ papers:
     title: Modeling ring current proton fluxes using artificial neural network and Van Allen Probe measurements
     year: '2023'
   hxd_4oEAAAAJ:WqliGbK-hY8C:
-    citations: 98
+    citations: 99
     title: 'Mechanism of substorm current wedge formation: THEMIS observations'
     year: '2012'
   hxd_4oEAAAAJ:XD-gHx7UXLsC:
@@ -162,7 +162,7 @@ papers:
     title: 'The Radiation Belt Electron Scattering by Magnetosonic Wave: Dependence on Key Parameters'
     year: '2017'
   hxd_4oEAAAAJ:foquWX3nUaYC:
-    citations: 2
+    citations: 3
     title: Modeling ring current proton distribution using MLP, CNN, LSTM, and transformer networks
     year: '2025'
   hxd_4oEAAAAJ:gsN89kCJA0AC:
