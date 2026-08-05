@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-08-05'
 papers:
   hxd_4oEAAAAJ:-FonjvnnhkoC:
     citations: 6
@@ -34,7 +34,7 @@ papers:
     title: Analytical approximation of transit time scattering due to magnetosonic waves
     year: '2015'
   hxd_4oEAAAAJ:9vf0nzSNQJEC:
-    citations: 86
+    citations: 85
     title: Nonlinear bounce resonances between magnetosonic waves and equatorially mirroring electrons
     year: '2015'
   hxd_4oEAAAAJ:9yKSN-GCB0IC:
@@ -50,7 +50,7 @@ papers:
     title: Unified view of nonlinear wave structures associated with whistler-mode chorus waves
     year: '2019'
   hxd_4oEAAAAJ:EkHepimYqZsC:
-    citations: 52
+    citations: 43
     title: 'Magnetospheric Multiscale observations of an ion diffusion region with large guide field at the magnetopause: Current system, electron heating, and plasma waves'
     year: '2018'
   hxd_4oEAAAAJ:HbR8gkJAVGIC:
@@ -62,7 +62,7 @@ papers:
     title: Comparison of formulas for resonant interactions between energetic electrons and oblique whistler-mode waves
     year: '2015'
   hxd_4oEAAAAJ:KUbvn5osdkgC:
-    citations: 102
+    citations: 107
     title: Origin of two-band chorus in the radiation belt of Earth
     year: '2019'
   hxd_4oEAAAAJ:LjlpjdlvIbIC:
@@ -70,7 +70,7 @@ papers:
     title: "Chang\u2019e-1 observations of pickup ions near the moon under different interplanetary magnetic field conditions"
     year: '2013'
   hxd_4oEAAAAJ:M7yex6snE4oC:
-    citations: 33
+    citations: 34
     title: "Rapid injections of MeV electrons and extremely fast step\u2010like outer radiation belt enhancements"
     year: '2021'
   hxd_4oEAAAAJ:MLfJN-KU85MC:
@@ -78,7 +78,7 @@ papers:
     title: Multipoint observations of quasiperiodic emission intensification and effects on energetic electron precipitation
     year: '2021'
   hxd_4oEAAAAJ:N5tVd3kTz84C:
-    citations: 125
+    citations: 124
     title: 'Radiation belt electron acceleration during the 17 March 2015 geomagnetic storm: Observations and simulations'
     year: '2016'
   hxd_4oEAAAAJ:PoWvk5oyLR8C:
@@ -106,11 +106,11 @@ papers:
     title: Variational symplectic algorithm for guiding center dynamics in the inner magnetosphere
     year: '2011'
   hxd_4oEAAAAJ:VaXvl8Fpj5cC:
-    citations: 11
+    citations: 12
     title: Unraveling the formation region and frequency of chorus spectral gaps
     year: '2022'
   hxd_4oEAAAAJ:WZBGuue-350C:
-    citations: 14
+    citations: 15
     title: Modeling ring current proton fluxes using artificial neural network and Van Allen Probe measurements
     year: '2023'
   hxd_4oEAAAAJ:WqliGbK-hY8C:
@@ -150,7 +150,7 @@ papers:
     title: Modeling the dynamic global distribution of the ring current oxygen ions using artificial neural network technique
     year: '2024'
   hxd_4oEAAAAJ:eq2jaN3J8jMC:
-    citations: 41
+    citations: 42
     title: Responses of relativistic electron fluxes in the outer radiation belt to geomagnetic storms
     year: '2015'
   hxd_4oEAAAAJ:evX43VCCuoAC:
@@ -170,7 +170,7 @@ papers:
     title: 'Energetic particle flux and pitch angle variation in dayside outer magnetosphere: Multi-spacecraft observations'
     year: '2018'
   hxd_4oEAAAAJ:ipzZ9siozwsC:
-    citations: 44
+    citations: 43
     title: Unified view of nonlinear wave structures associated with whistler-mode chorus
     year: '2019'
   hxd_4oEAAAAJ:k8Z6L05lTy4C:
@@ -214,7 +214,7 @@ papers:
     title: First observations of magnetosonic waves with nonlinear harmonics
     year: '2020'
   hxd_4oEAAAAJ:tzM49s52ZIMC:
-    citations: 18
+    citations: 19
     title: "Coordinated observations of two types of diffuse auroras near magnetic local noon by Magnetospheric Multiscale mission and ground all\u2010sky camera"
     year: '2017'
   hxd_4oEAAAAJ:uc_IGeMz5qoC:
@@ -238,7 +238,7 @@ papers:
     title: "\u57FA\u4E8E\u8BD5\u9A8C\u7C92\u5B50\u6A21\u62DF\u7684\u7535\u79BB\u5C42\u4EBA\u5DE5\u8C03\u5236\u6FC0\u53D1\u7684\u6781\u4F4E\u9891\u548C\u751A\u4F4E\u9891\u6CE2\u5BF9\u78C1\u5C42\u9AD8\u80FD\u7535\u5B50\u7684\u6563\u5C04\u6548\u5E94"
     year: '2014'
   hxd_4oEAAAAJ:zLWjf1WUPmwC:
-    citations: 87
+    citations: 88
     title: "Waves in kinetic\u2010scale magnetic dips: MMS observations in the magnetosheath"
     year: '2019'
   hxd_4oEAAAAJ:z_wVstp3MssC:
