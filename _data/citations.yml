@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-21'
 papers:
   hxd_4oEAAAAJ:-FonjvnnhkoC:
-    citations: 6
+    citations: 7
     title: "Fine structure of magnetospheric magnetosonic waves: 1. Elementary rising\u2010tone emissions within individual harmonic"
     year: '2024'
   hxd_4oEAAAAJ:-_dYPAW6P2MC:
@@ -62,7 +62,7 @@ papers:
     title: Comparison of formulas for resonant interactions between energetic electrons and oblique whistler-mode waves
     year: '2015'
   hxd_4oEAAAAJ:KUbvn5osdkgC:
-    citations: 107
+    citations: 108
     title: Origin of two-band chorus in the radiation belt of Earth
     year: '2019'
   hxd_4oEAAAAJ:LjlpjdlvIbIC:
@@ -70,7 +70,7 @@ papers:
     title: "Chang\u2019e-1 observations of pickup ions near the moon under different interplanetary magnetic field conditions"
     year: '2013'
   hxd_4oEAAAAJ:M7yex6snE4oC:
-    citations: 34
+    citations: 35
     title: "Rapid injections of MeV electrons and extremely fast step\u2010like outer radiation belt enhancements"
     year: '2021'
   hxd_4oEAAAAJ:MLfJN-KU85MC:
@@ -150,11 +150,11 @@ papers:
     title: Modeling the dynamic global distribution of the ring current oxygen ions using artificial neural network technique
     year: '2024'
   hxd_4oEAAAAJ:eq2jaN3J8jMC:
-    citations: 42
+    citations: 43
     title: Responses of relativistic electron fluxes in the outer radiation belt to geomagnetic storms
     year: '2015'
   hxd_4oEAAAAJ:evX43VCCuoAC:
-    citations: 43
+    citations: 45
     title: The characteristic response of whistler mode waves to interplanetary shocks
     year: '2017'
   hxd_4oEAAAAJ:fEOibwPWpKIC:
@@ -178,7 +178,7 @@ papers:
     title: 'Persistent pressure gradient as a driver of the substorm current wedge: A statistical study'
     year: '2022'
   hxd_4oEAAAAJ:kuK5TVdYjLIC:
-    citations: 28
+    citations: 29
     title: "Parallel acceleration of suprathermal electrons caused by whistler\u2010mode hiss waves"
     year: '2019'
   hxd_4oEAAAAJ:kz9GbA2Ns4gC:
@@ -198,9 +198,13 @@ papers:
     title: Local excitation of whistler mode waves and associated Langmuir waves at dayside reconnection regions
     year: '2018'
   hxd_4oEAAAAJ:oNZyr7d5Mn4C:
-    citations: 21
+    citations: 22
     title: Low-frequency whistler waves modulate electrons and generate higher-frequency whistler waves in the solar wind
     year: '2021'
+  hxd_4oEAAAAJ:q3CdL3IzO_QC:
+    citations: 0
+    title: "Observations of the latitude and frequency distributions of equatorward\u2010propagating chorus waves"
+    year: '2026'
   hxd_4oEAAAAJ:qjMakFHDy7sC:
     citations: 52
     title: Ultrarelativistic electron butterfly distributions created by parallel acceleration due to magnetosonic waves
@@ -238,7 +242,7 @@ papers:
     title: "\u57FA\u4E8E\u8BD5\u9A8C\u7C92\u5B50\u6A21\u62DF\u7684\u7535\u79BB\u5C42\u4EBA\u5DE5\u8C03\u5236\u6FC0\u53D1\u7684\u6781\u4F4E\u9891\u548C\u751A\u4F4E\u9891\u6CE2\u5BF9\u78C1\u5C42\u9AD8\u80FD\u7535\u5B50\u7684\u6563\u5C04\u6548\u5E94"
     year: '2014'
   hxd_4oEAAAAJ:zLWjf1WUPmwC:
-    citations: 88
+    citations: 89
     title: "Waves in kinetic\u2010scale magnetic dips: MMS observations in the magnetosheath"
     year: '2019'
   hxd_4oEAAAAJ:z_wVstp3MssC:
